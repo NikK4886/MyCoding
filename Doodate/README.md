@@ -1,0 +1,1 @@
+It is important to note that this is a prototype version of the application Doodate. My own contributions to this prototype were mainly in the backend Django REST framework and similiar applications. I also contributed to the React MUI UI of the file addsyllabus.jsx.

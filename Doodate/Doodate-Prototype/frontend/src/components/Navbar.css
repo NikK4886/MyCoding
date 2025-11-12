@@ -1,0 +1,20 @@
+.navbar-icon {
+    width: 3vh;
+    height: 3vh;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    bottom: 0
+}
+
+
+/* MAKES BIG FONT NOT APPLY TO NAVBAR TO STOP OVERFLOW */
+.navbar .MuiBottomNavigationAction-label {
+  font-size: 0.75rem; 
+}
+
+.navbar .Mui-selected .MuiBottomNavigationAction-label {
+    font-size: 0.9rem;
+}
