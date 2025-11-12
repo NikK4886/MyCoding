@@ -1,0 +1,1 @@
+These files show proficency in the Java language. All projects in this folder came from work assigned by the University of Ottawa. 

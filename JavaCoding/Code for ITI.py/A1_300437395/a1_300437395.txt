@@ -1,0 +1,203 @@
+#Question 1
+mh2kh(5)
+8.04672
+mh2kh(110.4)
+177.67157760000003
+*Different computers round slightly differently 
+
+#Question 2
+pythagorean_pair(2,2)
+False
+pythagorean_pair(6,2)
+False
+pythagorean_pair(6,8)
+True
+pythagorean_pair(300,-400)
+True
+
+#Question 3
+in_out(0,0,2.5)
+Put a number for an x value: 0
+Put a number for a y value: 1.2
+True
+in_out(2.5,1,1)
+Put a number for an x value: -1
+Put a number for a y value: 1.5
+False
+in_out(-2.5,1,2.1)
+Put a number for an x value: -1
+Put a number for a y value: 1.5
+True
+
+#Question 4
+safe(93)
+False
+safe(82)
+True
+safe(29)
+False
+safe(36)
+False
+safe(9)
+False
+safe(7)
+True
+
+#Question 5
+quote_maker("Everything should be made as simple as possible but not simpler.", "Albert Einstein", 1933)
+'In 1933, a person called Albert Einstein said: Everything should be made as simple as possible but not simpler.'
+quote_maker("I would never die for my beliefs because I might be wrong.", "Bertrand Russell", 1951)
+'In 1951, a person called Bertrand Russell said: I would never die for my beliefs because I might be wrong.'
+
+#Question 6
+quote_displayer()
+Add your quote: The best lack all conviction while the worst are full of passionate intensity.
+Add your name: Bertrand Russell
+Add the year: 1960
+'In 1960, a person called Bertrand Russell said: The best lack all conviction while the worst are full of passionate intensity.'
+
+#Question 7 
+
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: rock
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: scissors
+Player 1 wins. That is True
+It is a tie. That is not True
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: rock
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: rock
+Player 1 wins. That is False
+It is a tie. That is not False
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: rock
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+Player 1 wins. That is False
+It is a tie. That is not True
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: paper
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+Player 1 wins. That is False
+It is a tie. That is not False
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: paper
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: rock
+Player 1 wins. That is True
+It is a tie. That is not True
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: paper
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: scissors
+Player 1 wins. That is False
+It is a tie. That is not True
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: scissors
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: scissors
+Player 1 wins. That is False
+It is a tie. That is not False
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: scissors
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: paper
+Player 1 wins. That is True
+It is a tie. That is not True
+rps_winner()
+What choice did player 1 make?
+Type one of the following options: rock, paper, scissors: scissors
+What choice did player 2 make?
+Type one of the following options: rock, paper, scissors: rock
+Player 1 wins. That is False
+It is a tie. That is not True
+
+#Question 8 
+
+fun(7)
+0.25
+fun(20)
+0.3404319590043982
+fun(0.1)
+0.11928031367991561
+fun(999999997)
+2.2499999999999996
+*Some deviation based on the different computers used to calculate log
+
+#Question 9
+
+ascii_name_plaque("vida")
+************
+*          *
+* __vida__ *
+*          *
+************
+ascii_name_plaque("Captain Kara 'Starbuck' Thrace")
+**************************************
+*                                    *
+* __Captain Kara 'Starbuck' Thrace__ *
+*                                    *
+**************************************
+ascii_name_plaque("Seven of Nine")
+*********************
+*                   *
+* __Seven of Nine__ *
+*                   *
+*********************
+
+#Question 10
+draw_court()
+
+#Question 11
+alogical(5.4)
+3
+alogical(4)
+2
+alogical(1000)
+10
+alogical(4200231)
+23
+
+#Question 12
+cad_cashier(10.58,11)
+0.4
+cad_cashier(98.87,100)
+1.15
+cad_cashier(10.58,15)
+4.4
+cad_cashier(10.55,15)
+4.45
+cad_cashier(10.54,15)
+4.45
+cad_cashier(10.52,15)
+4.5
+cad_cashier(10.50,15)
+4.5
+
+#Question 13
+min_CAD_coins(10.58,11)
+(0, 0, 1, 1, 1)
+min_CAD_coins(98.87,100)
+(0, 1, 0, 1, 1)		
+min_CAD_coins(10.58,15)
+(2, 0, 1, 1, 1)
+min_CAD_coins(10.55,15)
+(2, 0, 1, 2, 0)
+min_CAD_coins(10.54,15)
+(2, 0, 1, 2, 0)
+min_CAD_coins(10.52,15)
+(2, 0, 2, 0, 0)
+min_CAD_coins(10.50,15)
+(2, 0, 2, 0, 0)
+min_CAD_coins(3, 20)
+(8, 1, 0, 0, 0)
