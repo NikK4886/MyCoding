@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/Header Page/headerstyle.css">
+    <script src="/Java Script/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            cursor: url('https://commandaddgirls.com/app/themes/cognitif-starter/assets/dist/images/cursor-white.cur'), auto;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="header">
+        <div class="content-box">
+            <a href="/Header Page/Header.html">
+                <div class="logo-circle">
+                    <img src="/images/logofindme-removebg-preview (1).png" alt="Logo">
+                </div>
+            </a>
+            <nav>
+                <div class="nav-links" id="navLinks">
+                  <i class="fa-solid fa-x" id="bars" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="/Header Page/index.html">HOME</a></li>
+                        <li><a href="/Features Page/Features.html">FEATURES</a></li>
+                        <li><a href="/Download/download 2.0.html">DOWNLOAD</a></li>
+                        <li><a href="/Price Page/Pricing2.0.html">PRICING</a></li>
+                        <li><a href="/About Us Page/about2.html">ABOUT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" id="bars2" onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <hr>
+        <div class="title-box">
+            <h1>Start Connecting!</h1>
+        </div>
+        <!-- Cover_one -->
+        <div class="Cover_one">
+            <img src="/images/blob.png" alt="Leaf Cover_one" />
+        </div>
+        </div>
+        <!-- Cover_two_mini -->
+        <div class="Cover_two_mini">
+            <img src="/images/video-phone-U1-2.gif" alt="Leaf Cover_one" />
+        </div>
+        </div>
+        <!-- Cover_three_mini -->
+        <div class="Cover_three_mini">
+            <img src="/images/Untitled-design.gif" alt="Leaf Cover_one" />
+        </div>
+
+
+    <section class="content1">
+        <div class="text-box-container">
+            <div class="text-box1">
+                <h1><span class="bold-line">FindMeFriends</span><br><br>Is here to help you discover and connect with new people nearby. <br> Join us to meet people who share your interests!</h1>
+            </div>
+            <div class="text-box1colour1"></div> 
+            <div class="text-box1colour2"></div>
+        </div>
+
+        <div class = "price-image"></div>
+    </section>
+
+    <section class="header" id ="second-header"></section>
+    <div class="text-bubble">
+    <img src="/images/Screenshot 2024-11-14 at 12.27.04 AM.png" alt="text.bubble">
+    </div>
+    <hr>
+        <div class="content-box-2">
+            <div class='about-section-div'>
+                <div class="about-content">
+                    <h1>Our Mission_</h1>
+                    <p>Our mission is to make it easy for you to connect with new people and build meaningful friendships. Whether you’re in a new place or just looking to meet someone new, our app lets you discover intriguing profiles nearby, share live locations, and start conversations with ease. We’re here to help turn everyday moments into opportunities for genuine connection.</p>
+                </div>
+                <div class="about-image">
+                    <img src="/images/our_mission.png" alt="Diversity mural image">
+                </div>
+                </div>
+        </div>
+        <section class="footer">
+            <div class="footer-content">
+            <div class="footer-logo"><img src="/images/logofindme-removebg-preview (1).png"></div>
+            <div class="copyrights"><i class="fa-regular fa-copyright"></i><p>Copyrights 2024. FindMeFriends</p></div>
+            <div class="privacy-policy"><a href="/Download/Terms_of_use.html" target="_blank">Terms of Use</a></div>
+            <div class="privacy-policy"><a href="/Download/Privacy_Policy.html" target="_blank">Privacy Policy</a></div>
+            <div class="icons">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/?lang=en-ca"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://ca.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            </div>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+</body>
+</html>
